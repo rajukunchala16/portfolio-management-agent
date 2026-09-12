@@ -1,0 +1,672 @@
+2026-07-19 16:03:54 | INFO     | app | main.py:27 | Application started
+2026-07-19 16:03:54 | INFO     | app | main.py:28 | Configuration loaded
+2026-07-19 16:04:01 | INFO     | app | main.py:31 | LLM initialized
+2026-07-19 16:04:01 | INFO     | app | main.py:33 | Initializing session manager
+2026-07-19 16:04:01 | INFO     | app | main.py:39 | Created session: Session-6405babe (6405babe-9088-46dc-9299-13fcfdb4755b)
+2026-07-19 16:04:01 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-07-19 16:04:01 | INFO     | app | factory.py:27 | Loading configuration...
+2026-07-19 16:04:01 | INFO     | app | mcp_client.py:26 | Initializing GitHub MCP client...
+2026-07-19 16:04:01 | INFO     | app | mcp_client.py:51 | GitHub MCP client initialized successfully.
+2026-07-19 16:04:04 | INFO     | app | factory.py:35 | Loaded 26 MCP tools.
+2026-07-19 16:04:04 | INFO     | app | factory.py:37 | Initializing LLM...
+2026-07-19 16:06:03 | INFO     | app | main.py:27 | Application started
+2026-07-19 16:06:03 | INFO     | app | main.py:28 | Configuration loaded
+2026-07-19 16:06:05 | INFO     | app | main.py:31 | LLM initialized
+2026-07-19 16:06:05 | INFO     | app | main.py:33 | Initializing session manager
+2026-07-19 16:06:05 | INFO     | app | main.py:39 | Created session: Session-fb4c8ad1 (fb4c8ad1-58ce-4cc4-8e5d-9df12f624d98)
+2026-07-19 16:06:05 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-07-19 16:06:05 | INFO     | app | factory.py:27 | Loading configuration...
+2026-07-19 16:06:05 | INFO     | app | mcp_client.py:26 | Initializing GitHub MCP client...
+2026-07-19 16:06:05 | INFO     | app | mcp_client.py:51 | GitHub MCP client initialized successfully.
+2026-07-19 16:06:08 | INFO     | app | factory.py:35 | Loaded 26 MCP tools.
+2026-07-19 16:06:08 | INFO     | app | factory.py:37 | Initializing LLM...
+2026-07-19 16:06:40 | INFO     | app | main.py:27 | Application started
+2026-07-19 16:06:40 | INFO     | app | main.py:28 | Configuration loaded
+2026-07-19 16:06:42 | INFO     | app | main.py:31 | LLM initialized
+2026-07-19 16:06:42 | INFO     | app | main.py:33 | Initializing session manager
+2026-07-19 16:06:42 | INFO     | app | main.py:39 | Created session: Session-502608ff (502608ff-0d9c-4b4c-8d52-59412ea713fd)
+2026-07-19 16:06:42 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-07-19 16:06:42 | INFO     | app | factory.py:27 | Loading configuration...
+2026-07-19 16:06:42 | INFO     | app | mcp_client.py:26 | Initializing GitHub MCP client...
+2026-07-19 16:06:42 | INFO     | app | mcp_client.py:51 | GitHub MCP client initialized successfully.
+2026-07-19 16:06:45 | INFO     | app | factory.py:35 | Loaded 26 MCP tools.
+2026-07-19 16:06:45 | INFO     | app | factory.py:37 | Initializing LLM...
+2026-07-19 16:06:45 | INFO     | app | factory.py:50 | Creating summarization middleware...
+2026-07-19 16:06:45 | INFO     | app | factory.py:54 | Building LangGraph agent...
+2026-07-19 16:06:45 | INFO     | app | factory.py:63 | LangGraph agent initialized successfully.
+2026-07-19 16:06:45 | INFO     | app | main.py:59 | Agent initialized for session 502608ff-0d9c-4b4c-8d52-59412ea713fd
+2026-07-19 16:06:57 | INFO     | app | main.py:105 | Question: hi how are you
+2026-07-19 16:06:58 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-07-19 16:06:58 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-07-19 16:06:58 | INFO     | app | orchestrator.py:48 | Question : /ask hi how are you
+2026-07-19 16:07:01 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-07-19 16:07:01 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-07-19 16:07:01 | INFO     | app | main.py:125 | Answer generated successfully
+2026-07-19 16:07:13 | INFO     | app | main.py:105 | Question: what is your cutoff date
+2026-07-19 16:07:13 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-07-19 16:07:13 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-07-19 16:07:13 | INFO     | app | orchestrator.py:48 | Question : /ask what is your cutoff date
+2026-07-19 16:07:15 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-07-19 16:07:15 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-07-19 16:07:15 | INFO     | app | main.py:125 | Answer generated successfully
+2026-07-19 16:07:27 | INFO     | app | main.py:84 | Application terminated by user
+2026-08-11 23:02:52 | INFO     | app | main.py:27 | Application started
+2026-08-11 23:02:52 | INFO     | app | main.py:28 | Configuration loaded
+2026-08-11 23:02:59 | INFO     | app | main.py:31 | LLM initialized
+2026-08-11 23:02:59 | INFO     | app | main.py:33 | Initializing session manager
+2026-08-11 23:02:59 | INFO     | app | main.py:39 | Created session: Session-d1b2c439 (d1b2c439-3894-4daf-90e7-34fec12b8bdd)
+2026-08-11 23:02:59 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-08-11 23:02:59 | INFO     | app | factory.py:27 | Loading configuration...
+2026-08-11 23:02:59 | INFO     | app | mcp_client.py:26 | Initializing GitHub MCP client...
+2026-08-11 23:02:59 | INFO     | app | mcp_client.py:58 | GitHub MCP client initialized successfully.
+2026-08-16 15:18:13 | INFO     | app | main.py:27 | Application started
+2026-08-16 15:18:13 | INFO     | app | main.py:28 | Configuration loaded
+2026-08-16 15:18:23 | INFO     | app | main.py:31 | LLM initialized
+2026-08-16 15:18:23 | INFO     | app | main.py:33 | Initializing session manager
+2026-08-16 15:18:23 | INFO     | app | main.py:39 | Created session: Session-509ff9f1 (509ff9f1-6e38-4d65-8a57-a46e288d64e4)
+2026-08-16 15:18:23 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-08-16 15:18:23 | INFO     | app | factory.py:27 | Loading configuration...
+2026-08-16 15:18:23 | INFO     | app | mcp_client.py:26 | Initializing GitHub MCP client...
+2026-08-16 15:18:23 | INFO     | app | mcp_client.py:58 | GitHub MCP client initialized successfully.
+2026-08-16 15:34:31 | INFO     | app | main.py:27 | Application started
+2026-08-16 15:34:31 | INFO     | app | main.py:28 | Configuration loaded
+2026-08-16 15:34:37 | INFO     | app | main.py:31 | LLM initialized
+2026-08-16 15:34:37 | INFO     | app | main.py:33 | Initializing session manager
+2026-08-16 15:34:37 | INFO     | app | main.py:39 | Created session: Session-40ae02e8 (40ae02e8-b8e1-401b-8b04-2f1dc3e43d15)
+2026-08-16 15:34:37 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-08-16 15:34:37 | INFO     | app | factory.py:27 | Loading configuration...
+2026-08-16 15:34:37 | INFO     | app | mcp_client.py:26 | Initializing GitHub MCP client...
+2026-08-16 15:34:37 | INFO     | app | mcp_client.py:58 | GitHub MCP client initialized successfully.
+2026-09-12 12:34:12 | INFO     | app | main.py:27 | Application started
+2026-09-12 12:34:12 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 12:34:17 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 12:34:17 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 12:34:17 | INFO     | app | main.py:39 | Created session: Session-8e80a9fc (8e80a9fc-e88a-4a7d-a2a1-3f835906c81d)
+2026-09-12 12:34:17 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 12:34:17 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 12:39:32 | INFO     | app | main.py:27 | Application started
+2026-09-12 12:39:32 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 12:39:37 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 12:39:37 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 12:39:37 | INFO     | app | main.py:39 | Created session: Session-18bc88f6 (18bc88f6-6b6b-40af-9f4d-517798b01346)
+2026-09-12 12:39:37 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 12:39:37 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 12:46:16 | INFO     | app | main.py:27 | Application started
+2026-09-12 12:46:16 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 12:46:21 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 12:46:21 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 12:46:21 | INFO     | app | main.py:39 | Created session: Session-117e3e68 (117e3e68-7506-40cb-851a-e160821f53d8)
+2026-09-12 12:46:21 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 12:46:21 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 12:46:26 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-12 12:46:26 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-12 12:46:26 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-12 12:46:26 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-12 12:46:26 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-12 12:46:26 | INFO     | app | main.py:59 | Agent initialized for session 117e3e68-7506-40cb-851a-e160821f53d8
+2026-09-12 12:47:58 | INFO     | app | main.py:27 | Application started
+2026-09-12 12:47:58 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 12:47:59 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 12:47:59 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 12:47:59 | INFO     | app | main.py:39 | Created session: Session-1fd580ca (1fd580ca-cd53-4c5a-9c83-e57958145b3d)
+2026-09-12 12:47:59 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 12:47:59 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 12:48:03 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-12 12:48:03 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-12 12:48:03 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-12 12:48:03 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-12 12:48:03 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-12 12:48:03 | INFO     | app | main.py:59 | Agent initialized for session 1fd580ca-cd53-4c5a-9c83-e57958145b3d
+2026-09-12 12:48:31 | INFO     | app | main.py:105 | Question: what is my crypto account balance
+2026-09-12 12:48:31 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 12:48:31 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 12:48:31 | INFO     | app | orchestrator.py:48 | Question : /ask what is my crypto account balance
+2026-09-12 12:48:33 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************VH4A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+During task with name 'model' and id 'e58ea758-e19a-429f-afb3-bd029d4e6379'
+2026-09-12 12:48:33 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 12:49:19 | INFO     | app | main.py:105 | Question: give me all tools
+2026-09-12 12:49:19 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 12:49:19 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 12:49:19 | INFO     | app | orchestrator.py:48 | Question : /ask give me all tools
+2026-09-12 12:49:19 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************VH4A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+During task with name 'model' and id 'd959fb81-1318-f9ba-177c-729d0c25850a'
+2026-09-12 12:49:19 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 12:52:44 | INFO     | app | main.py:105 | Question: hello
+2026-09-12 12:52:44 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 12:52:44 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 12:52:44 | INFO     | app | orchestrator.py:48 | Question : /ask hello
+2026-09-12 12:52:45 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************VH4A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+During task with name 'model' and id '22f85808-f96c-efd5-8861-32547960471a'
+2026-09-12 12:52:45 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 12:52:56 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-12 12:54:44 | INFO     | app | main.py:27 | Application started
+2026-09-12 12:54:44 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 12:54:49 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 12:54:49 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 12:54:50 | INFO     | app | main.py:39 | Created session: Session-d9a8edb9 (d9a8edb9-e3e2-497b-b305-afb9a33f976e)
+2026-09-12 12:54:50 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 12:54:50 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 12:54:54 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-12 12:54:54 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-12 12:54:54 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-12 12:54:54 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-12 12:54:54 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-12 12:54:54 | INFO     | app | main.py:59 | Agent initialized for session d9a8edb9-e3e2-497b-b305-afb9a33f976e
+2026-09-12 12:55:03 | INFO     | app | main.py:105 | Question: hello
+2026-09-12 12:55:03 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 12:55:03 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 12:55:03 | INFO     | app | orchestrator.py:48 | Question : /ask hello
+2026-09-12 12:55:05 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************VH4A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+During task with name 'model' and id '142eab06-10d2-c584-8a86-1b0ddd7d3075'
+2026-09-12 12:55:05 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:03:26 | INFO     | app | main.py:105 | Question: hello
+2026-09-12 13:03:26 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:03:26 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:03:26 | INFO     | app | orchestrator.py:48 | Question : /ask hello
+2026-09-12 13:03:27 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************VH4A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+During task with name 'model' and id '486dcf9a-f287-df63-df94-f8e3194297cf'
+2026-09-12 13:03:27 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:04:49 | INFO     | app | main.py:27 | Application started
+2026-09-12 13:04:49 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 13:04:54 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 13:04:54 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 13:04:54 | INFO     | app | main.py:39 | Created session: Session-df519e73 (df519e73-2d9f-4128-8cca-27c7f817de8f)
+2026-09-12 13:04:54 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 13:04:54 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 13:04:58 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-12 13:04:58 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-12 13:04:58 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-12 13:04:58 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-12 13:04:59 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-12 13:04:59 | INFO     | app | main.py:59 | Agent initialized for session df519e73-2d9f-4128-8cca-27c7f817de8f
+2026-09-12 13:05:04 | INFO     | app | main.py:105 | Question: hello
+2026-09-12 13:05:04 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:05:04 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:05:04 | INFO     | app | orchestrator.py:48 | Question : /ask hello
+2026-09-12 13:05:07 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-12 13:05:07 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-12 13:05:07 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:05:20 | INFO     | app | main.py:105 | Question: give me my account balance
+2026-09-12 13:05:20 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:05:20 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:05:20 | INFO     | app | orchestrator.py:48 | Question : /ask give me my account balance
+2026-09-12 13:05:32 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-12 13:05:32 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-12 13:05:32 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:07:00 | INFO     | app | main.py:105 | Question: can i buy any crypto today, suggest me
+2026-09-12 13:07:00 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:07:00 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:07:00 | INFO     | app | orchestrator.py:48 | Question : /ask can i buy any crypto today, suggest me
+2026-09-12 13:07:11 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-12 13:07:11 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-12 13:07:11 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:07:56 | INFO     | app | main.py:105 | Question: check account balance to buy crpyto
+2026-09-12 13:07:56 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:07:56 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:07:56 | INFO     | app | orchestrator.py:48 | Question : /ask check account balance to buy crpyto
+2026-09-12 13:08:10 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-12 13:08:10 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-12 13:08:10 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:09:56 | INFO     | app | main.py:105 | Question: what are your capabilites, you can buy crypto on your own based on market trends?
+2026-09-12 13:09:56 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:09:56 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:09:56 | INFO     | app | orchestrator.py:48 | Question : /ask what are your capabilites, you can buy crypto on your own based on market trends?
+2026-09-12 13:10:01 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-12 13:10:01 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-12 13:10:01 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:10:30 | INFO     | app | main.py:84 | Application terminated by user

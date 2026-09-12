@@ -1,0 +1,81 @@
+llm:
+  provider: openai
+  model: gpt-4o-mini
+
+embeddings:
+  provider: huggingface
+  model: all-MiniLM-L6-v2
+
+memory:
+  # Base directory for all memory-related data
+  base_path: "./memory_store"
+
+  # SQLite checkpoint database (created inside each session folder)
+  checkpoint_db: "checkpoints.db"
+
+  # Session metadata file
+  sessions_file: "sessions.json"
+
+  # Short-term memory settings
+  short_term:
+    enabled: true
+    max_tokens_before_summary: 3000
+    messages_to_keep: 10
+
+  # Long-term memory (for future use)
+  long_term:
+    enabled: false
+    provider: null        # chroma | qdrant | pinecone | postgres
+    collection_name: "assistant_memory"
+
+
+vector_stores:
+    # enabled: false
+    # host: localhost
+    # port: 8000
+    # collection_name: rag_documents
+    # persist_directory: ./chroma_data
+
+  # qdrant:
+  #   enabled: false
+  #   url: https://52f4028f-368f-4f09-b466-a6d382d493a5.us-east-1-1.aws.cloud.qdrant.io
+  #   collection_name: agentic-ai
+  #   api_key: ${QDRANT_API_KEY}
+
+  provider: pinecone
+  enabled: true
+  host: https://genai-system-design-86yrheq.svc.aped-4627-b74a.pinecone.io
+  index_name: genai-system-design
+  namespace: default
+  
+  data_path: sample_rest_api_logs.txt
+
+  # graph_vector_store:
+  #   enabled: true
+  #   provider: neo4j
+  #   uri: bolt://localhost:7687
+  #   username: neo4j
+  #   password: ${NEO4J_PASSWORD}
+  #   database: neo4j
+  #   node_label: Document
+  #   relationship_type: RELATED_TO
+
+rag:
+  mode: "pinecone"
+  type: semantic
+  chunk_size: 800
+  chunk_overlap: 150
+  retrieval:
+    top_k: 5
+    similarity_threshochroma:
+    ld: 0.75
+    hybrid_search: false
+  memory:
+    enabled: true
+    conversation_window: 6
+
+coindcx:
+  coindcx_base_url: https://api.coindcx.com
+  coindcx_public_url: https://public.coindcx.com
+  enable_trading: false
+  coindcx_timeout: 15
