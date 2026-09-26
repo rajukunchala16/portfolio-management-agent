@@ -7,8 +7,8 @@ import streamlit as st
 
 
 def get_backend_url() -> str:
-    """Return the backend URL from environment or default local development value."""
-    return os.getenv("PORTFOLIO_AGENT_API_URL", "http://localhost:8000").rstrip("/")
+    """Return the backend URL from environment or default local in-process URL."""
+    return os.getenv("PORTFOLIO_AGENT_API_URL", "http://127.0.0.1:8000").rstrip("/")
 
 
 backend_url = get_backend_url()
