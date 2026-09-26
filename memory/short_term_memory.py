@@ -27,5 +27,5 @@ def get_summarization_middleware(llm):
     return SummarizationMiddleware(
         model=llm,
         max_tokens_before_summary=3000,
-        messages_to_keep=10,
+        messages_to_keep=3,
     )

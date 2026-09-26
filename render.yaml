@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: portfolio-agent-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.api
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: PYTHONPATH
+        value: .
+      - key: PORT
+        value: 8000
+
+  - type: web
+    name: portfolio-agent-ui
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.streamlit
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: PORTFOLIO_AGENT_API_URL
+        value: https://portfolio-agent-api.onrender.com
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true
+      - key: STREAMLIT_SERVER_ENABLE_CORS
+        value: false

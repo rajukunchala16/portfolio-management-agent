@@ -1,149 +1,94 @@
+"""FastAPI entrypoint for the portfolio management agent."""
+
 import asyncio
+from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
-from rich.console import Console
-from rich.prompt import Prompt
-from rich.panel import Panel
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
-from config import config
-from llm.factory import get_llm
-from observability import logger
 from agent.factory import build_agent
-
-
 from agent.orchestrator import handle_query
-console = Console()
-
+from llm.factory import get_llm
 from memory.session import SessionManager
 from memory.short_term_memory import get_checkpoint
-from agent.factory import build_agent
+from observability import logger
 
- # Load environment variables
 load_dotenv()
 
 
+class QuestionRequest(BaseModel):
+    """Request model for a portfolio question."""
 
-async def main():
+    question: str
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    """Initialize the LangGraph agent once when the FastAPI app starts."""
     logger.info("Application started")
     logger.info("Configuration loaded")
 
-    llm = get_llm()
+    _ = get_llm()
     logger.info("LLM initialized")
 
-    logger.info("Initializing session manager")
-
     session_manager = SessionManager()
-
     session = session_manager.create()
-
-    logger.info(
-        "Created session: %s (%s)",
-        session.name,
-        session.id,
-    )
+    logger.info("Created session: %s (%s)", session.name, session.id)
 
     checkpoint = await get_checkpoint(session)
-
     logger.info("Checkpoint initialized")
 
-    agent = await build_agent(
-        checkpoint=checkpoint
-    )
+    agent = await build_agent(checkpoint=checkpoint)
+    logger.info("Agent initialized for session %s", session.id)
 
-    thread_config = {
-        "configurable": {
-            "thread_id": session.id,
-        }
+    _app.state.agent = agent
+    _app.state.session_id = session.id
+
+    yield
+
+
+app = FastAPI(title="Portfolio Management Agent", lifespan=lifespan)
+
+
+@app.get("/")
+async def root() -> dict[str, str]:
+    """Health check endpoint."""
+    return {
+        "message": "Portfolio management agent is running",
+        "session_id": getattr(app.state, "session_id", "unknown"),
     }
 
-    logger.info(
-        "Agent initialized for session %s",
-        session.id,
+
+@app.post("/ask")
+async def ask_question(payload: QuestionRequest) -> dict[str, str]:
+    """Accept a user question and return the agent answer."""
+    question = payload.question.strip()
+
+    if not question:
+        raise HTTPException(status_code=400, detail="Question cannot be empty.")
+
+    agent = getattr(app.state, "agent", None)
+    session_id = getattr(app.state, "session_id", "default")
+
+    if agent is None:
+        raise HTTPException(status_code=500, detail="Agent is not initialized.")
+
+    logger.info("Question: %s", question)
+
+    answer = await handle_query(
+        agent=agent,
+        question=question,
+        thread_id=session_id,
     )
-   
-    console.print(
-        Panel.fit(
-            "[bold cyan]AI Assistant[/bold cyan]\n\n"
-            "Commands:\n"
-            "• /ask <question>\n"
-            "• exit",
-            title="Welcome",
-        )
-    )
-    
-    while True:
-        try:
-            user_input = Prompt.ask(
-                "[bold green]>[/bold green]"
-            ).strip()
 
-            if not user_input:
-                continue
+    return {"answer": answer, "session_id": session_id}
 
-            if user_input.lower() == "exit":
-                logger.info("Application terminated by user")
-                console.print(
-                    "[bold yellow]Goodbye! 👋[/bold yellow]"
-                )
-                break
 
-            if not user_input.startswith("/ask"):
-                console.print(
-                    "[bold red]Invalid command.[/bold red] "
-                    "Use [cyan]/ask <question>[/cyan]"
-                )
-                continue
+async def main() -> None:
+    """Compatibility entrypoint for local development."""
+    logger.info("Use uvicorn main:app --reload to run the FastAPI service.")
 
-            question = user_input[4:].strip()
 
-            if not question:
-                console.print(
-                    "[yellow]Please enter a question.[/yellow]"
-                )
-                continue
-
-            logger.info("Question: %s", question)
-
-            with console.status(
-                "[bold cyan]Thinking...[/bold cyan]",
-                spinner="dots",
-            ):
-                logger.debug(
-                    "Invoking LangGraph agent "
-                    "(thread_id=%s)",
-                    session.id,
-                )
-
-                result =  await handle_query(
-                            agent=agent,
-                            question=user_input,
-                            thread_id=session.id,
-                )
-
-            answer = result
-
-            logger.info("Answer generated successfully")
-
-            console.print("\n[bold blue]AI:[/bold blue]")
-            console.print(answer)
-            console.print()
-
-        except KeyboardInterrupt:
-            logger.info("KeyboardInterrupt received")
-            console.print(
-                "\n[yellow]Exiting...[/yellow]"
-            )
-            break
-
-        except Exception:
-            logger.exception(
-                "Unexpected error while processing request"
-            )
-
-            console.print(
-                "[bold red]An unexpected error occurred.[/bold red]"
-            )
-
-    
 if __name__ == "__main__":
     asyncio.run(main())

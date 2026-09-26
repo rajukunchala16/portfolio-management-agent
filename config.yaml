@@ -1,6 +1,6 @@
 llm:
   provider: openai
-  model: gpt-4o-mini
+  model: gpt-5-nano-2025-08-07
 
 embeddings:
   provider: huggingface

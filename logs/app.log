@@ -670,3 +670,1156 @@ During task with name 'model' and id '486dcf9a-f287-df63-df94-f8e3194297cf'
 2026-09-12 13:10:01 | INFO     | app | orchestrator.py:75 | ================================================================================
 2026-09-12 13:10:01 | INFO     | app | main.py:125 | Answer generated successfully
 2026-09-12 13:10:30 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-12 13:27:24 | INFO     | app | main.py:27 | Application started
+2026-09-12 13:27:24 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-12 13:27:30 | INFO     | app | main.py:31 | LLM initialized
+2026-09-12 13:27:30 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-12 13:27:30 | INFO     | app | main.py:39 | Created session: Session-01b34c37 (01b34c37-268d-4bfb-a8b6-db9b0990592f)
+2026-09-12 13:27:30 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-12 13:27:30 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-12 13:27:35 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-12 13:27:35 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-12 13:27:35 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-12 13:27:35 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-12 13:27:35 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-12 13:27:35 | INFO     | app | main.py:59 | Agent initialized for session 01b34c37-268d-4bfb-a8b6-db9b0990592f
+2026-09-12 13:29:49 | INFO     | app | main.py:105 | Question: give my order history
+2026-09-12 13:29:49 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-12 13:29:49 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-12 13:29:49 | INFO     | app | orchestrator.py:48 | Question : /ask give my order history
+2026-09-12 13:30:14 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-12 13:30:14 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-12 13:30:14 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-12 13:30:40 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-22 10:41:48 | INFO     | app | main.py:27 | Application started
+2026-09-22 10:41:48 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 10:41:54 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 10:41:54 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 10:41:54 | INFO     | app | main.py:39 | Created session: Session-8d05b8ec (8d05b8ec-db97-45ac-b00c-1aad0ef73705)
+2026-09-22 10:41:54 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 10:41:54 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 10:42:03 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 10:42:03 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 10:42:03 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 10:42:03 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 10:42:04 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 10:42:04 | INFO     | app | main.py:59 | Agent initialized for session 8d05b8ec-db97-45ac-b00c-1aad0ef73705
+2026-09-22 10:42:29 | INFO     | app | main.py:105 | Question: give me the current market details
+2026-09-22 10:42:29 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:42:29 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:42:29 | INFO     | app | orchestrator.py:48 | Question : /ask give me the current market details
+2026-09-22 10:42:46 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 10:42:46 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 10:42:46 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:44:05 | INFO     | app | main.py:105 | Question: give me the balance
+2026-09-22 10:44:05 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:44:05 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:44:05 | INFO     | app | orchestrator.py:48 | Question : /ask give me the balance
+2026-09-22 10:44:24 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 10:44:24 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 10:44:24 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:44:55 | INFO     | app | main.py:105 | Question: me user detials
+2026-09-22 10:44:55 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:44:55 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:44:55 | INFO     | app | orchestrator.py:48 | Question : /ask me user detials
+2026-09-22 10:45:06 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 10:45:06 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 10:45:06 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:45:33 | INFO     | app | main.py:105 | Question: give me active orders
+2026-09-22 10:45:34 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:45:34 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:45:34 | INFO     | app | orchestrator.py:48 | Question : /ask give me active orders
+2026-09-22 10:45:42 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 10:45:42 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 10:45:42 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:45:58 | INFO     | app | main.py:105 | Question: yes place a new order
+2026-09-22 10:45:58 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:45:58 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:45:58 | INFO     | app | orchestrator.py:48 | Question : /ask yes place a new order
+2026-09-22 10:46:00 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 10:46:00 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 10:46:00 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:48:40 | INFO     | app | main.py:105 | Question: market : XRP, side : buy, order type: limit order, qantity: 10 coins, price: 120
+2026-09-22 10:48:40 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:48:40 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:48:40 | INFO     | app | orchestrator.py:48 | Question : /ask market : XRP, side : buy, order type: limit order, qantity: 10 coins, price: 120
+2026-09-22 10:48:50 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 228122 tokens (227486 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2007, in _agenerate
+    _handle_openai_bad_request(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 567, in _handle_openai_bad_request
+    raise OpenAIContextOverflowError(
+        message=e.message, response=e.response, body=e.body
+    ) from e
+langchain_openai.chat_models.base.OpenAIContextOverflowError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 228122 tokens (227486 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+During task with name 'model' and id 'd457fa8e-515b-cc0f-ae3b-ccaa19ae8c56'
+2026-09-22 10:48:50 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:51:08 | INFO     | app | main.py:105 | Question: market : XRP, side : buy, order type: limit order, qantity: 10 coins, price: 120
+2026-09-22 10:51:08 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:51:08 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:51:08 | INFO     | app | orchestrator.py:48 | Question : /ask market : XRP, side : buy, order type: limit order, qantity: 10 coins, price: 120
+2026-09-22 10:51:12 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 228052 tokens (227416 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2007, in _agenerate
+    _handle_openai_bad_request(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 567, in _handle_openai_bad_request
+    raise OpenAIContextOverflowError(
+        message=e.message, response=e.response, body=e.body
+    ) from e
+langchain_openai.chat_models.base.OpenAIContextOverflowError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 228052 tokens (227416 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+During task with name 'model' and id 'dc69ee07-32c3-6ef1-4c2e-42737801481c'
+2026-09-22 10:51:12 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:51:40 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-22 10:56:03 | INFO     | app | main.py:27 | Application started
+2026-09-22 10:56:03 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 10:56:08 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 10:56:08 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 10:56:08 | INFO     | app | main.py:39 | Created session: Session-7af0f22a (7af0f22a-b844-49cc-a06f-7beecfcdc51b)
+2026-09-22 10:56:08 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 10:56:08 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 10:56:12 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 10:56:12 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 10:56:12 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 10:56:12 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 10:56:12 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 10:56:12 | INFO     | app | main.py:59 | Agent initialized for session 7af0f22a-b844-49cc-a06f-7beecfcdc51b
+2026-09-22 10:56:25 | INFO     | app | main.py:105 | Question: want to buy some coins
+2026-09-22 10:56:25 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:56:25 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:56:25 | INFO     | app | orchestrator.py:48 | Question : /ask want to buy some coins
+2026-09-22 10:56:27 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 10:56:27 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 10:56:27 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 10:57:32 | INFO     | app | main.py:105 | Question: XRP, 10 coins, 100 rupees, limit order
+2026-09-22 10:57:32 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 10:57:32 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 10:57:32 | INFO     | app | orchestrator.py:48 | Question : /ask XRP, 10 coins, 100 rupees, limit order
+2026-09-22 10:57:47 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 231272 tokens (230636 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2007, in _agenerate
+    _handle_openai_bad_request(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 567, in _handle_openai_bad_request
+    raise OpenAIContextOverflowError(
+        message=e.message, response=e.response, body=e.body
+    ) from e
+langchain_openai.chat_models.base.OpenAIContextOverflowError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 231272 tokens (230636 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+During task with name 'model' and id '6d3aa552-f1df-975c-d161-24c43fa959ef'
+2026-09-22 10:57:47 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:12:23 | INFO     | app | main.py:105 | Question: XRP, 10 coins, 100 rupees, limit order
+2026-09-22 11:12:24 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:12:24 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:12:24 | INFO     | app | orchestrator.py:48 | Question : /ask XRP, 10 coins, 100 rupees, limit order
+2026-09-22 11:12:27 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 231291 tokens (230655 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2007, in _agenerate
+    _handle_openai_bad_request(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 567, in _handle_openai_bad_request
+    raise OpenAIContextOverflowError(
+        message=e.message, response=e.response, body=e.body
+    ) from e
+langchain_openai.chat_models.base.OpenAIContextOverflowError: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 231291 tokens (230655 in the messages, 636 in the functions). Please reduce the length of the messages or functions.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+During task with name 'model' and id '75106e76-8a80-6411-5157-5d4cc090a477'
+2026-09-22 11:12:27 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:14:40 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-22 11:15:52 | INFO     | app | main.py:27 | Application started
+2026-09-22 11:15:52 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 11:15:57 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 11:15:57 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 11:15:57 | INFO     | app | main.py:39 | Created session: Session-9e75eda6 (9e75eda6-0983-4126-a511-deb896e3d228)
+2026-09-22 11:15:57 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 11:15:57 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 11:16:02 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 11:16:02 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 11:16:02 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 11:16:02 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 11:16:03 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 11:16:03 | INFO     | app | main.py:59 | Agent initialized for session 9e75eda6-0983-4126-a511-deb896e3d228
+2026-09-22 11:20:44 | INFO     | app | main.py:105 | Question: give me order history
+2026-09-22 11:20:44 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:20:44 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:20:44 | INFO     | app | orchestrator.py:48 | Question : /ask give me order history
+2026-09-22 11:20:46 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_qGvJLQoynrMsZCDWaopz1ffB` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+During task with name 'model' and id '9bc6a765-371f-ad96-afd0-a8a908a43ab8'
+2026-09-22 11:20:46 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:22:46 | INFO     | app | main.py:105 | Question: give me order history
+2026-09-22 11:22:46 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:22:46 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:22:46 | INFO     | app | orchestrator.py:48 | Question : /ask give me order history
+2026-09-22 11:22:47 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_qGvJLQoynrMsZCDWaopz1ffB` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+During task with name 'model' and id 'fc1e6dba-3276-fbcc-999c-8be331485591'
+2026-09-22 11:22:47 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:25:13 | INFO     | app | main.py:27 | Application started
+2026-09-22 11:25:13 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 11:25:15 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 11:25:15 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 11:25:15 | INFO     | app | main.py:39 | Created session: Session-b688c9b9 (b688c9b9-6457-4873-978c-f533b9312be4)
+2026-09-22 11:25:15 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 11:25:15 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 11:25:18 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 11:25:18 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 11:25:18 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 11:25:18 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 11:25:18 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 11:25:18 | INFO     | app | main.py:59 | Agent initialized for session b688c9b9-6457-4873-978c-f533b9312be4
+2026-09-22 11:25:34 | INFO     | app | main.py:105 | Question: give me order history
+2026-09-22 11:25:34 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:25:34 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:25:34 | INFO     | app | orchestrator.py:48 | Question : /ask give me order history
+2026-09-22 11:25:36 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2009, in _agenerate
+    _handle_openai_api_error(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Project `proj_qGvJLQoynrMsZCDWaopz1ffB` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+During task with name 'model' and id 'd279e060-8217-3b1a-9dc0-1e8ce3ade30f'
+2026-09-22 11:25:36 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:27:44 | INFO     | app | main.py:27 | Application started
+2026-09-22 11:27:44 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 11:27:46 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 11:27:46 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 11:27:46 | INFO     | app | main.py:39 | Created session: Session-0849bdca (0849bdca-5ce2-461e-a4e6-42cabb7abd3e)
+2026-09-22 11:27:46 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 11:27:46 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 11:27:50 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 11:27:50 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 11:27:50 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 11:27:50 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 11:27:50 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 11:27:50 | INFO     | app | main.py:59 | Agent initialized for session 0849bdca-5ce2-461e-a4e6-42cabb7abd3e
+2026-09-22 11:28:11 | INFO     | app | main.py:105 | Question: give me order history
+2026-09-22 11:28:11 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:28:11 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:28:11 | INFO     | app | orchestrator.py:48 | Question : /ask give me order history
+2026-09-22 11:28:13 | ERROR    | app | orchestrator.py:80 | Error while processing query.
+Traceback (most recent call last):
+  File "e:\raju\workspace3\portfolio-management-agent\agent\orchestrator.py", line 50, in handle_query
+    result = await agent.ainvoke(
+             ^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+    ...<30 lines>...
+            chunks.append(chunk)
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+    ...<16 lines>...
+            yield o
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+    ...<15 lines>...
+    )
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        step.ainvoke(input, config, **kwargs), context=context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1495, in amodel_node
+    model_response = await _execute_model_async(request)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain\agents\factory.py", line 1467, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 6015, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 499, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1860, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1818, in agenerate
+    raise exceptions[0]
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2151, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2007, in _agenerate
+    _handle_openai_bad_request(e)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 2002, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **payload
+        ^^^^^^^^^
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2877, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<55 lines>...
+    )
+    ^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\raju\workspace3\portfolio-management-agent\.venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Function tools with reasoning_effort are not supported for gpt-5.6-luna in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.", 'type': 'invalid_request_error', 'param': 'reasoning_effort', 'code': None}}
+During task with name 'model' and id '981e7777-d7d6-1d04-c3a6-fb41f86c22f7'
+2026-09-22 11:28:13 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:34:26 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-22 11:34:57 | INFO     | app | main.py:27 | Application started
+2026-09-22 11:34:57 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 11:34:59 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 11:34:59 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 11:34:59 | INFO     | app | main.py:39 | Created session: Session-11e56a7e (11e56a7e-0311-4320-824b-348798124848)
+2026-09-22 11:34:59 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 11:34:59 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 11:35:03 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 11:35:03 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 11:35:03 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 11:35:03 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 11:35:03 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 11:35:03 | INFO     | app | main.py:59 | Agent initialized for session 11e56a7e-0311-4320-824b-348798124848
+2026-09-22 11:35:24 | INFO     | app | main.py:105 | Question: hello
+2026-09-22 11:35:24 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:35:24 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:35:24 | INFO     | app | orchestrator.py:48 | Question : /ask hello
+2026-09-22 11:35:28 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:35:28 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:35:28 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:35:40 | INFO     | app | main.py:105 | Question: market data today
+2026-09-22 11:35:40 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:35:40 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:35:40 | INFO     | app | orchestrator.py:48 | Question : /ask market data today
+2026-09-22 11:36:00 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:36:00 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:36:00 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:36:51 | INFO     | app | main.py:105 | Question: can you buy coins
+2026-09-22 11:36:51 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:36:51 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:36:51 | INFO     | app | orchestrator.py:48 | Question : /ask can you buy coins
+2026-09-22 11:37:02 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:37:02 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:37:02 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:40:08 | INFO     | app | main.py:105 | Question: market: XRP, side: buy, order type: limit_order, qantity: 2, price per unit: 100 rupees
+2026-09-22 11:40:08 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:40:08 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:40:08 | INFO     | app | orchestrator.py:48 | Question : /ask market: XRP, side: buy, order type: limit_order, qantity: 2, price per unit: 100 rupees
+2026-09-22 11:40:52 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:40:52 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:40:52 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:42:18 | INFO     | app | main.py:105 | Question: Confirm buy XRPINR 2 at ₹100 limit.
+2026-09-22 11:42:18 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:42:18 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:42:18 | INFO     | app | orchestrator.py:48 | Question : /ask Confirm buy XRPINR 2 at ₹100 limit.
+2026-09-22 11:42:37 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:42:37 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:42:37 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:43:11 | INFO     | app | main.py:105 | Question: place order with limit 125 rupees
+2026-09-22 11:43:11 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:43:11 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:43:11 | INFO     | app | orchestrator.py:48 | Question : /ask place order with limit 125 rupees
+2026-09-22 11:43:19 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:43:19 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:43:19 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:49:29 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-22 11:54:58 | INFO     | app | main.py:27 | Application started
+2026-09-22 11:54:58 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-22 11:55:03 | INFO     | app | main.py:31 | LLM initialized
+2026-09-22 11:55:03 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-22 11:55:03 | INFO     | app | main.py:39 | Created session: Session-ab169506 (ab169506-b609-4e5c-8d62-265230c04ca0)
+2026-09-22 11:55:03 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-22 11:55:03 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-22 11:55:07 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-22 11:55:07 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-22 11:55:07 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-22 11:55:07 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-22 11:55:07 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-22 11:55:07 | INFO     | app | main.py:59 | Agent initialized for session ab169506-b609-4e5c-8d62-265230c04ca0
+2026-09-22 11:55:53 | INFO     | app | main.py:105 | Question: can you do analysis tell me which crypto that will give profits if i buy today, for short term like 2 days
+2026-09-22 11:55:54 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:55:54 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:55:54 | INFO     | app | orchestrator.py:48 | Question : /ask can you do analysis tell me which crypto that will give profits if i buy today, for short term like 2 days
+2026-09-22 11:57:05 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 11:57:05 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 11:57:05 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 11:58:43 | INFO     | app | main.py:105 | Question: yes do
+2026-09-22 11:58:43 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-22 11:58:43 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-22 11:58:43 | INFO     | app | orchestrator.py:48 | Question : /ask yes do
+2026-09-22 12:01:12 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-22 12:01:12 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-22 12:01:12 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-22 12:04:18 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-26 11:43:43 | INFO     | app | main.py:27 | Application started
+2026-09-26 11:43:43 | INFO     | app | main.py:28 | Configuration loaded
+2026-09-26 11:43:51 | INFO     | app | main.py:31 | LLM initialized
+2026-09-26 11:43:51 | INFO     | app | main.py:33 | Initializing session manager
+2026-09-26 11:43:51 | INFO     | app | main.py:39 | Created session: Session-15b8932e (15b8932e-f4f3-4557-954e-e59a05987726)
+2026-09-26 11:43:51 | INFO     | app | main.py:47 | Checkpoint initialized
+2026-09-26 11:43:51 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-26 11:43:55 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-26 11:43:55 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-26 11:43:55 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-26 11:43:55 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-26 11:43:55 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-26 11:43:55 | INFO     | app | main.py:59 | Agent initialized for session 15b8932e-f4f3-4557-954e-e59a05987726
+2026-09-26 11:44:48 | INFO     | app | main.py:105 | Question: hello
+2026-09-26 11:44:48 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 11:44:48 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 11:44:48 | INFO     | app | orchestrator.py:48 | Question : /ask hello
+2026-09-26 11:44:54 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 11:44:54 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 11:44:54 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-26 11:45:31 | INFO     | app | main.py:105 | Question: give me the good crypto coins to but now
+2026-09-26 11:45:31 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 11:45:31 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 11:45:31 | INFO     | app | orchestrator.py:48 | Question : /ask give me the good crypto coins to but now
+2026-09-26 11:45:46 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 11:45:46 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 11:45:46 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-26 11:49:27 | INFO     | app | main.py:105 | Question: yes
+2026-09-26 11:49:27 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 11:49:27 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 11:49:27 | INFO     | app | orchestrator.py:48 | Question : /ask yes
+2026-09-26 11:50:46 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 11:50:46 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 11:50:46 | INFO     | app | main.py:125 | Answer generated successfully
+2026-09-26 11:51:30 | INFO     | app | main.py:84 | Application terminated by user
+2026-09-26 11:55:37 | INFO     | app | main.py:75 | Question: What is my portfolio?
+2026-09-26 11:56:45 | INFO     | app | main.py:77 | Question: What is my portfolio?
+2026-09-26 11:58:49 | INFO     | app | main.py:90 | Use uvicorn main:app --reload to run the FastAPI service.
+2026-09-26 11:59:28 | INFO     | app | main.py:29 | Application started
+2026-09-26 11:59:28 | INFO     | app | main.py:30 | Configuration loaded
+2026-09-26 11:59:33 | INFO     | app | main.py:33 | LLM initialized
+2026-09-26 11:59:33 | INFO     | app | main.py:37 | Created session: Session-5533340f (5533340f-a459-48b0-bd67-a41c3331c303)
+2026-09-26 11:59:33 | INFO     | app | main.py:40 | Checkpoint initialized
+2026-09-26 11:59:33 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-26 11:59:37 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-26 11:59:37 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-26 11:59:37 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-26 11:59:37 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-26 11:59:37 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-26 11:59:37 | INFO     | app | main.py:43 | Agent initialized for session 5533340f-a459-48b0-bd67-a41c3331c303
+2026-09-26 12:00:38 | INFO     | app | main.py:77 | Question: hello
+2026-09-26 12:00:38 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 12:00:38 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 12:00:38 | INFO     | app | orchestrator.py:48 | Question : hello
+2026-09-26 12:00:46 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 12:00:46 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 12:09:09 | INFO     | app | main.py:77 | Question: What is my portfolio?
+2026-09-26 12:11:42 | INFO     | app | main.py:29 | Application started
+2026-09-26 12:11:42 | INFO     | app | main.py:30 | Configuration loaded
+2026-09-26 12:11:47 | INFO     | app | main.py:33 | LLM initialized
+2026-09-26 12:11:47 | INFO     | app | main.py:37 | Created session: Session-742a154b (742a154b-896a-463a-9f49-f0292e1d77f4)
+2026-09-26 12:11:47 | INFO     | app | main.py:40 | Checkpoint initialized
+2026-09-26 12:11:47 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-26 12:11:51 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-26 12:11:51 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-26 12:11:51 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-26 12:11:51 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-26 12:11:51 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-26 12:11:51 | INFO     | app | main.py:43 | Agent initialized for session 742a154b-896a-463a-9f49-f0292e1d77f4
+2026-09-26 12:15:57 | INFO     | app | main.py:29 | Application started
+2026-09-26 12:15:57 | INFO     | app | main.py:30 | Configuration loaded
+2026-09-26 12:16:02 | INFO     | app | main.py:33 | LLM initialized
+2026-09-26 12:16:02 | INFO     | app | main.py:37 | Created session: Session-128af00f (128af00f-a0db-4713-8292-0e4724089893)
+2026-09-26 12:16:02 | INFO     | app | main.py:40 | Checkpoint initialized
+2026-09-26 12:16:02 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-26 12:16:05 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-26 12:16:05 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-26 12:16:05 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-26 12:16:05 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-26 12:16:05 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-26 12:16:05 | INFO     | app | main.py:43 | Agent initialized for session 128af00f-a0db-4713-8292-0e4724089893
+2026-09-26 12:16:59 | INFO     | app | main.py:77 | Question: hello
+2026-09-26 12:16:59 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 12:16:59 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 12:16:59 | INFO     | app | orchestrator.py:48 | Question : hello
+2026-09-26 12:17:05 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 12:17:05 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 12:17:33 | INFO     | app | main.py:77 | Question: give my portfolio coins
+2026-09-26 12:17:33 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 12:17:33 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 12:17:33 | INFO     | app | orchestrator.py:48 | Question : give my portfolio coins
+2026-09-26 12:17:52 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 12:17:52 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 12:26:05 | INFO     | app | main.py:29 | Application started
+2026-09-26 12:26:05 | INFO     | app | main.py:30 | Configuration loaded
+2026-09-26 12:26:10 | INFO     | app | main.py:33 | LLM initialized
+2026-09-26 12:26:10 | INFO     | app | main.py:37 | Created session: Session-6548967b (6548967b-618a-4571-929f-d135a7466948)
+2026-09-26 12:26:10 | INFO     | app | main.py:40 | Checkpoint initialized
+2026-09-26 12:26:10 | INFO     | app | factory.py:29 | Loading configuration...
+2026-09-26 12:26:13 | INFO     | app | factory.py:37 | Loaded 12 MCP tools.
+2026-09-26 12:26:13 | INFO     | app | factory.py:39 | Initializing LLM...
+2026-09-26 12:26:13 | INFO     | app | factory.py:52 | Creating summarization middleware...
+2026-09-26 12:26:13 | INFO     | app | factory.py:56 | Crypto AI agent creating...
+2026-09-26 12:26:13 | INFO     | app | factory.py:66 | Crypto AI agent created successfully
+2026-09-26 12:26:13 | INFO     | app | main.py:43 | Agent initialized for session 6548967b-618a-4571-929f-d135a7466948
+2026-09-26 12:28:18 | INFO     | app | main.py:77 | Question: what is my portfolio performance today
+2026-09-26 12:28:18 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 12:28:18 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 12:28:18 | INFO     | app | orchestrator.py:48 | Question : what is my portfolio performance today
+2026-09-26 12:29:44 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 12:29:44 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 12:31:39 | INFO     | app | main.py:77 | Question: ADA today price is not correct
+2026-09-26 12:31:39 | INFO     | app | orchestrator.py:46 | ================================================================================
+2026-09-26 12:31:39 | INFO     | app | orchestrator.py:47 | Received User Query
+2026-09-26 12:31:39 | INFO     | app | orchestrator.py:48 | Question : ADA today price is not correct
+2026-09-26 12:32:23 | INFO     | app | orchestrator.py:74 | Agent response generated successfully.
+2026-09-26 12:32:23 | INFO     | app | orchestrator.py:75 | ================================================================================
+2026-09-26 12:44:40 | INFO     | app | main.py:77 | Question: What is my portfolio?

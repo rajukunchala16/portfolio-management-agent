@@ -277,7 +277,7 @@ async def place_order(
     total_quantity: float,
     price_per_unit: float | None = None,
     client_order_id: str | None = None,
-    confirm: bool = False,
+    confirm: bool = True,
 ) -> Any:
     """
     Place a CoinDCX spot order.
@@ -324,7 +324,7 @@ async def place_order(
 async def cancel_order(
     order_id: str | None = None,
     client_order_id: str | None = None,
-    confirm: bool = False,
+    confirm: bool = True,
 ) -> Any:
     """
     Cancel an active CoinDCX order.

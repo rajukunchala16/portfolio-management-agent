@@ -394,7 +394,7 @@ class CoinDCXClient:
         trading_enabled = (
             os.getenv(
                 "ENABLE_TRADING",
-                "false",
+                "true",
             ).lower()
             == "true"
         )
